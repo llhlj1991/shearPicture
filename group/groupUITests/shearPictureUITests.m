@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface groupUITests : XCTestCase
+@interface shearPictureUITests : XCTestCase
 
 @end
 
-@implementation groupUITests
+@implementation shearPictureUITests
 
 - (void)setUp {
     [super setUp];

@@ -13,8 +13,8 @@
 		A47C9C381D2BC5B50094D21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47C9C361D2BC5B50094D21A /* Main.storyboard */; };
 		A47C9C3A1D2BC5B50094D21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47C9C391D2BC5B50094D21A /* Assets.xcassets */; };
 		A47C9C3D1D2BC5B50094D21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47C9C3B1D2BC5B50094D21A /* LaunchScreen.storyboard */; };
-		A47C9C481D2BC5B60094D21A /* groupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C9C471D2BC5B60094D21A /* groupTests.m */; };
-		A47C9C531D2BC5B60094D21A /* groupUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C9C521D2BC5B60094D21A /* groupUITests.m */; };
+		A47C9C481D2BC5B60094D21A /* shearPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C9C471D2BC5B60094D21A /* shearPictureTests.m */; };
+		A47C9C531D2BC5B60094D21A /* shearPictureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47C9C521D2BC5B60094D21A /* shearPictureUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A47C9C2A1D2BC5B50094D21A /* group.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = group.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47C9C2A1D2BC5B50094D21A /* shearPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shearPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47C9C2E1D2BC5B50094D21A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A47C9C301D2BC5B50094D21A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A47C9C311D2BC5B50094D21A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,11 +45,11 @@
 		A47C9C391D2BC5B50094D21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47C9C3C1D2BC5B50094D21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47C9C3E1D2BC5B50094D21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A47C9C431D2BC5B60094D21A /* groupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = groupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47C9C471D2BC5B60094D21A /* groupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = groupTests.m; sourceTree = "<group>"; };
+		A47C9C431D2BC5B60094D21A /* shearPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shearPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47C9C471D2BC5B60094D21A /* shearPictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shearPictureTests.m; sourceTree = "<group>"; };
 		A47C9C491D2BC5B60094D21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A47C9C4E1D2BC5B60094D21A /* groupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = groupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47C9C521D2BC5B60094D21A /* groupUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = groupUITests.m; sourceTree = "<group>"; };
+		A47C9C4E1D2BC5B60094D21A /* shearPictureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shearPictureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47C9C521D2BC5B60094D21A /* shearPictureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shearPictureUITests.m; sourceTree = "<group>"; };
 		A47C9C541D2BC5B60094D21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,9 +81,9 @@
 		A47C9C211D2BC5B50094D21A = {
 			isa = PBXGroup;
 			children = (
-				A47C9C2C1D2BC5B50094D21A /* group */,
-				A47C9C461D2BC5B60094D21A /* groupTests */,
-				A47C9C511D2BC5B60094D21A /* groupUITests */,
+				A47C9C2C1D2BC5B50094D21A /* shearPicture */,
+				A47C9C461D2BC5B60094D21A /* shearPictureTests */,
+				A47C9C511D2BC5B60094D21A /* shearPictureUITests */,
 				A47C9C2B1D2BC5B50094D21A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		A47C9C2B1D2BC5B50094D21A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A47C9C2A1D2BC5B50094D21A /* group.app */,
-				A47C9C431D2BC5B60094D21A /* groupTests.xctest */,
-				A47C9C4E1D2BC5B60094D21A /* groupUITests.xctest */,
+				A47C9C2A1D2BC5B50094D21A /* shearPicture.app */,
+				A47C9C431D2BC5B60094D21A /* shearPictureTests.xctest */,
+				A47C9C4E1D2BC5B60094D21A /* shearPictureUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A47C9C2C1D2BC5B50094D21A /* group */ = {
+		A47C9C2C1D2BC5B50094D21A /* shearPicture */ = {
 			isa = PBXGroup;
 			children = (
 				A47C9C301D2BC5B50094D21A /* AppDelegate.h */,
@@ -111,6 +111,7 @@
 				A47C9C3E1D2BC5B50094D21A /* Info.plist */,
 				A47C9C2D1D2BC5B50094D21A /* Supporting Files */,
 			);
+			name = shearPicture;
 			path = group;
 			sourceTree = "<group>";
 		};
@@ -122,30 +123,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A47C9C461D2BC5B60094D21A /* groupTests */ = {
+		A47C9C461D2BC5B60094D21A /* shearPictureTests */ = {
 			isa = PBXGroup;
 			children = (
-				A47C9C471D2BC5B60094D21A /* groupTests.m */,
+				A47C9C471D2BC5B60094D21A /* shearPictureTests.m */,
 				A47C9C491D2BC5B60094D21A /* Info.plist */,
 			);
+			name = shearPictureTests;
 			path = groupTests;
 			sourceTree = "<group>";
 		};
-		A47C9C511D2BC5B60094D21A /* groupUITests */ = {
+		A47C9C511D2BC5B60094D21A /* shearPictureUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A47C9C521D2BC5B60094D21A /* groupUITests.m */,
+				A47C9C521D2BC5B60094D21A /* shearPictureUITests.m */,
 				A47C9C541D2BC5B60094D21A /* Info.plist */,
 			);
+			name = shearPictureUITests;
 			path = groupUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A47C9C291D2BC5B50094D21A /* group */ = {
+		A47C9C291D2BC5B50094D21A /* shearPicture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A47C9C571D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "group" */;
+			buildConfigurationList = A47C9C571D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "shearPicture" */;
 			buildPhases = (
 				A47C9C261D2BC5B50094D21A /* Sources */,
 				A47C9C271D2BC5B50094D21A /* Frameworks */,
@@ -155,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = group;
+			name = shearPicture;
 			productName = group;
-			productReference = A47C9C2A1D2BC5B50094D21A /* group.app */;
+			productReference = A47C9C2A1D2BC5B50094D21A /* shearPicture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A47C9C421D2BC5B60094D21A /* groupTests */ = {
+		A47C9C421D2BC5B60094D21A /* shearPictureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A47C9C5A1D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "groupTests" */;
+			buildConfigurationList = A47C9C5A1D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "shearPictureTests" */;
 			buildPhases = (
 				A47C9C3F1D2BC5B60094D21A /* Sources */,
 				A47C9C401D2BC5B60094D21A /* Frameworks */,
@@ -173,14 +176,14 @@
 			dependencies = (
 				A47C9C451D2BC5B60094D21A /* PBXTargetDependency */,
 			);
-			name = groupTests;
+			name = shearPictureTests;
 			productName = groupTests;
-			productReference = A47C9C431D2BC5B60094D21A /* groupTests.xctest */;
+			productReference = A47C9C431D2BC5B60094D21A /* shearPictureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A47C9C4D1D2BC5B60094D21A /* groupUITests */ = {
+		A47C9C4D1D2BC5B60094D21A /* shearPictureUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A47C9C5D1D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "groupUITests" */;
+			buildConfigurationList = A47C9C5D1D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "shearPictureUITests" */;
 			buildPhases = (
 				A47C9C4A1D2BC5B60094D21A /* Sources */,
 				A47C9C4B1D2BC5B60094D21A /* Frameworks */,
@@ -191,9 +194,9 @@
 			dependencies = (
 				A47C9C501D2BC5B60094D21A /* PBXTargetDependency */,
 			);
-			name = groupUITests;
+			name = shearPictureUITests;
 			productName = groupUITests;
-			productReference = A47C9C4E1D2BC5B60094D21A /* groupUITests.xctest */;
+			productReference = A47C9C4E1D2BC5B60094D21A /* shearPictureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A47C9C251D2BC5B50094D21A /* Build configuration list for PBXProject "group" */;
+			buildConfigurationList = A47C9C251D2BC5B50094D21A /* Build configuration list for PBXProject "shearPicture" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A47C9C291D2BC5B50094D21A /* group */,
-				A47C9C421D2BC5B60094D21A /* groupTests */,
-				A47C9C4D1D2BC5B60094D21A /* groupUITests */,
+				A47C9C291D2BC5B50094D21A /* shearPicture */,
+				A47C9C421D2BC5B60094D21A /* shearPictureTests */,
+				A47C9C4D1D2BC5B60094D21A /* shearPictureUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47C9C481D2BC5B60094D21A /* groupTests.m in Sources */,
+				A47C9C481D2BC5B60094D21A /* shearPictureTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47C9C531D2BC5B60094D21A /* groupUITests.m in Sources */,
+				A47C9C531D2BC5B60094D21A /* shearPictureUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		A47C9C451D2BC5B60094D21A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A47C9C291D2BC5B50094D21A /* group */;
+			target = A47C9C291D2BC5B50094D21A /* shearPicture */;
 			targetProxy = A47C9C441D2BC5B60094D21A /* PBXContainerItemProxy */;
 		};
 		A47C9C501D2BC5B60094D21A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A47C9C291D2BC5B50094D21A /* group */;
+			target = A47C9C291D2BC5B50094D21A /* shearPicture */;
 			targetProxy = A47C9C4F1D2BC5B60094D21A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,7 +485,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A47C9C251D2BC5B50094D21A /* Build configuration list for PBXProject "group" */ = {
+		A47C9C251D2BC5B50094D21A /* Build configuration list for PBXProject "shearPicture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47C9C551D2BC5B60094D21A /* Debug */,
@@ -491,29 +494,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A47C9C571D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "group" */ = {
+		A47C9C571D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "shearPicture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47C9C581D2BC5B60094D21A /* Debug */,
 				A47C9C591D2BC5B60094D21A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A47C9C5A1D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "groupTests" */ = {
+		A47C9C5A1D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "shearPictureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47C9C5B1D2BC5B60094D21A /* Debug */,
 				A47C9C5C1D2BC5B60094D21A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A47C9C5D1D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "groupUITests" */ = {
+		A47C9C5D1D2BC5B60094D21A /* Build configuration list for PBXNativeTarget "shearPictureUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A47C9C5E1D2BC5B60094D21A /* Debug */,
 				A47C9C5F1D2BC5B60094D21A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
